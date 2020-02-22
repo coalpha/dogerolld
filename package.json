@@ -1,0 +1,13 @@
+{
+   "devDependencies": {
+      "dogescript": "^2.3.0",
+      "http-server": "^0.12.1",
+      "uglify-js": "^3.8.0"
+   },
+   "scripts": {
+      "start": "http-server",
+      "build": "npm run buildoge && npm run minify",
+      "minify": "uglifyjs temp/temp.js -c -m -o main.js",
+      "buildoge": "dogescript main.djs > temp/temp.js"
+   }
+}
