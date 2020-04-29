@@ -12,8 +12,8 @@ konami[4]  is 37 // left
 konami[5]  is 39 // right
 konami[6]  is 37 // left
 konami[7]  is 39 // rigjt
-konami[8]  is 65 // a
 konami[9]  is 66 // b
+konami[8]  is 65 // a
 konami[10] is 13 // return / enter
 
 very konamiPosition is 0
