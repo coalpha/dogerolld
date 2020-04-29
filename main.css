@@ -12,19 +12,6 @@ body {
 }
 
 body.chroma {
-   background: linear-gradient(
-      #9c2512,
-      #ce120c,
-      #d37d1b,
-      #e3e81d,
-      #90d117,
-      #08911e,
-      #079ba3,
-      #383bd1,
-      #6212bd,
-      #61094e
-   );
-   background-size: 1800% 1800%;
    animation: rainbow 10s ease-in-out infinite;
 }
 
@@ -32,10 +19,40 @@ body.devroom {
    background-color: black;
 }
 
-@keyframes rainbow { 
-   0% { background-position: 0% 0% }
-   50%{ background-position: 0% 100% }
-   100%{ background-position: 0% 0% }
+@keyframes rainbow {
+   0% {
+      background-color: #9c2512;
+   }
+   10% {
+      background-color: #ce120c;
+   }
+   20% {
+      background-color: #d37d1b;
+   }
+   30% {
+      background-color: #e3e81d;
+   }
+   40% {
+      background-color: #90d117;
+   }
+   50% {
+      background-color: #08911e;
+   }
+   60% {
+      background-color: #079ba3;
+   }
+   70% {
+      background-color: #383bd1;
+   }
+   80% {
+      background-color: #6212bd;
+   }
+   90% {
+      background-color: #61094e;
+   }
+   100% {
+      background-color: #9c2512;
+   }
 }
 
 img {

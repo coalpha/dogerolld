@@ -7,7 +7,7 @@
    "scripts": {
       "start": "http-server",
       "build": "npm run buildoge && npm run minify",
-      "minify": "uglifyjs temp/temp.js -c -m -o main.js",
-      "buildoge": "dogescript main.djs > temp/temp.js"
+      "minify": "uglifyjs main.js -c -m -o main.js",
+      "buildoge": "dogescript main.djs > main.js"
    }
 }
